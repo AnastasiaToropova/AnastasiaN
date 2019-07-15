@@ -95,5 +95,5 @@ Troubleshooting
 
 2.	Where can I find the guide described full integration of Xsolla Login?
 
-***Answer:*** Please follow the [link].
+***Answer:*** Please follow the [link](http://link/).
 
