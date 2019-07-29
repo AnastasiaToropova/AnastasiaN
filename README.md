@@ -15,11 +15,11 @@ Web Push allows websites to notify users of new messages or updated content. Whi
 - [How do I add Web Push to my website?](https://github.com/AnastasiaToropova/AnastasiaN/edit/master/README.md "How do I add Web Push to my website?")
 - [How do I stop Firefox asking me to allow notifications?](https://github.com/AnastasiaToropova/AnastasiaN/edit/master/README.md "How do I stop Firefox asking me to allow notifications?")
 
-#### Upgraded Notifications
+## Upgraded Notifications
 
 Firefox can deliver on-screen notifications even when that site isn’t loaded. Using the Push API, a [W3C standard](https://www.w3.org/TR/push-api/), Firefox receives a push message and can show notifications (if permitted by the user) at any time. Sites can also use Push to update data in the background even without showing you a notification. If you already gave permission to a site to send notifications, the site will also be able to use the Push API. You can choose whether or not to give permission for a specific website by following these instructions: 
 
-1. Click the ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-02-25-12-29-33-78136e.png) info button icon to bring up the [Control Center](https://support.mozilla.org/en-US/kb/control-center-site-privacy-and-security-firefox);
+1. Click the ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-02-25-12-29-33-78136e.png) icon to bring up the [Control Center](https://support.mozilla.org/en-US/kb/control-center-site-privacy-and-security-firefox);
 
 2. Click the button in the right connor of the the Permissions tab.
 ![](http://5o.f.mf-image.ru/d/eyJ0IjoiMjAxOS0wNy0yOVQxNTowOToyMy4wNjg3ODM2WiIsInRtIjoxNSwiYmQiOjEsImZkIjo1ODg3NDMxLCJyZiI6bnVsbCwic2wiOjAsImZuIjpudWxsLCJyIjoiaHR0cHM6Ly9teS1maWxlcy5ydS81ZTVzaHAiLCJsIjpudWxsfQ,,.23614028C46610B1137750B7774EB394./2222.png)
@@ -29,7 +29,7 @@ Firefox can deliver on-screen notifications even when that site isn’t loaded. 
 ![](http://a1.f.mf-image.ru/d/eyJ0IjoiMjAxOS0wNy0yOVQxNTo0NDoyNC44MDUxNDYzWiIsInRtIjoxNSwiYmQiOjEsImZkIjo1ODg3NDM0LCJyZiI6bnVsbCwic2wiOjAsImZuIjpudWxsLCJyIjoiaHR0cHM6Ly9teS1maWxlcy5ydS9qeWptNXgiLCJsIjpudWxsfQ,,.1BA3759115CEF724780AD8674BC72156./3333.png)
 
 
-**What is Web Push?**
+## What is Web Push?
 
 Web Push is an optional feature that allows websites to send you messages even when the site isn’t loaded. Sites can use this feature to provide you with notifications or update data in the background.
 
@@ -37,7 +37,7 @@ For instance, you can subscribe to notifications from your favorite shopping web
 
 You will only receive messages from sites for which you have granted permission.
 
-**How does it work?**
+## How does it work?
 
 Websites can install a [Service Worker](https://developer.mozilla.org/ru/docs/Web/API/Service_Worker_API), a background web page with a limited set of functionality, that can subscribe to the push service. The website can then send a push message through Mozilla’s Web Push service to your browser, which can process that message and display a notification on your screen.
 
@@ -45,11 +45,11 @@ Websites can install a [Service Worker](https://developer.mozilla.org/ru/docs/We
 
 Clicking the notification can open a website or switch to that site’s tab if loaded.
 
-**What information do I share with a website?**
+## What information do I share with a website?
 
 A website that has been granted permissions can send you push messages when the site isn’t loaded. A quota limits the number of push messages without an on-screen notification that sites can send you. Websites that exceed the quota will have its push messaging disabled and the user must revisit the website again to resubscribe. Web Push does not directly allow websites to determine your IP address.
 
-**What information does Firefox use to provide Web Push?**
+## What information does Firefox use to provide Web Push?
 
 Firefox maintains an active connection to a push service in order to receive push messages as long as it is open. The connection ends when Firefox is closed. On our server we store a randomized identifier for your browser, along with a randomized identifier for each site you authorize.
 
@@ -57,7 +57,7 @@ On Firefox for desktop, the push service is operated by Mozilla. Firefox for And
 
 In both cases, push messages are encrypted per the [IETF spec](https://tools.ietf.org/html/rfc8030) and only your copy of Firefox can decipher them. The encrypted messages are stored on the server until they are delivered or expire.
 
- **How do I revoke Web Push permissions for a specific site?**
+ ## How do I revoke Web Push permissions for a specific site?
  
  Web Push is always opt-in in Firefox. A site cannot send you push messages without your permission. To stop a specific site from sending you push messages:
  
@@ -65,7 +65,7 @@ In both cases, push messages are encrypted per the [IETF spec](https://tools.iet
 
 ![](http://8g.f.mf-image.ru/d/eyJ0IjoiMjAxOS0wNy0yOVQxNTo0MDoyNi44MDM1MTM0WiIsInRtIjoxNSwiYmQiOjEsImZkIjo1ODg3NDUxLCJyZiI6bnVsbCwic2wiOjAsImZuIjpudWxsLCJyIjoiaHR0cHM6Ly9teS1maWxlcy5ydS9vbGJzOWEiLCJsIjpudWxsfQ,,.825F01B0A9C6229A17F4FAAB3459A56B./4.png)
 
-2. Select the **Privacy & Security** panel and go down to the *Permissions* section.
+2. Select the *Privacy & Security* panel and go down to the *Permissions* section.
 
 3. Click the **Settings…** button next to *Notifications*.
 
@@ -80,19 +80,19 @@ To stop all sites from sending you push messages, follow the above steps except,
 |**To stop notifications on a specific webpage (requires a page reload):** Click the ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-02-25-12-29-33-78136e.png) icon to bring up the [Control Center](https://support.mozilla.org/en-US/kb/control-center-site-privacy-and-security-firefox), find the *Send Notifications* permission and click the **x** next to *Allowed* to remove the permission.|
 |----------------------------------------------------------------------------------------------------------------------|
 
-**How do I add Web Push to my website?**
+## How do I add Web Push to my website?
 
 The [Push API specification](https://developer.mozilla.org/docs/Web/API/Push_API) explains how to create a Service Worker and send push messages.
 
-**How do I stop Firefox asking me to allow notifications?**
+## How do I stop Firefox asking me to allow notifications? 
 
 If a site indicates to Firefox that it wants to show notifications, by default, Firefox asks whether you want to grant permission. You can set Firefox to automatically deny permission without asking. Even after the change, you can make exceptions for sites *you want* to show notifications or use push features.
-1. Click the menu button ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png) and choose **Options**.
-2. Select the **Privacy & Security** panel and scroll down to the *Permissions* section.
+1. Click the menu button ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png) and choose *Options*.
+2. Select the *Privacy & Security* panel and scroll down to the *Permissions* section.
 Click the **Settings…** button to the right of Notifications.
 
 ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2018-04-09-09-06-49-fc7acb.png)
 
-4. Check the box for **Block new requests asking to allow notifications** and then click **Save Changes**.
+4. Check the box for *Block new requests asking to allow notifications* and then click **Save Changes**.
               
               
