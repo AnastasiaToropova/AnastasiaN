@@ -15,6 +15,7 @@ Web Push allows websites to notify users of new messages or updated content. Whi
 - [How do I add Web Push to my website?](https://github.com/AnastasiaToropova/AnastasiaN/edit/master/README.md "How do I add Web Push to my website?")
 - [How do I stop Firefox asking me to allow notifications?](https://github.com/AnastasiaToropova/AnastasiaN/edit/master/README.md "How do I stop Firefox asking me to allow notifications?")
 
+
 ## Upgraded Notifications
 
 Firefox can deliver on-screen notifications even when that site isn’t loaded. Using the Push API, a [W3C standard](https://www.w3.org/TR/push-api/), Firefox receives a push message and can show notifications (if permitted by the user) at any time. Sites can also use Push to update data in the background even without showing you a notification. If you already gave permission to a site to send notifications, the site will also be able to use the Push API. You can choose whether or not to give permission for a specific website by following these instructions: 
@@ -86,7 +87,7 @@ The [Push API specification](https://developer.mozilla.org/docs/Web/API/Push_API
 If a site indicates to Firefox that it wants to show notifications, by default, Firefox asks whether you want to grant permission. You can set Firefox to automatically deny permission without asking. Even after the change, you can make exceptions for sites *you want* to show notifications or use push features.
 1. Click the menu button ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png) and choose *Options*.
 2. Select the *Privacy & Security* panel and scroll down to the *Permissions* section.
-Click the **Settings…** button to the right of Notifications.
+Click the **Settings…** button to the right of *Notifications*.
 
 ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2018-04-09-09-06-49-fc7acb.png)
 
