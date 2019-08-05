@@ -70,8 +70,9 @@ In both cases, push messages are encrypted per the [IETF spec](https://tools.iet
 3. Click the **Settings…** button next to *Notifications*.
 
 ![](http://lr.f.mf-image.ru/d/eyJ0IjoiMjAxOS0wNy0yOVQxNTo0OToyOC4wNzU1MTA3WiIsInRtIjoxNSwiYmQiOjEsImZkIjo1ODg3NDYzLCJyZiI6bnVsbCwic2wiOjAsImZuIjpudWxsLCJyIjoiaHR0cHM6Ly9teS1maWxlcy5ydS9mZ3JheTAiLCJsIjpudWxsfQ,,.DA2588ABFCD22F008DE25F51263E1109./5.png)
- 4. Select the website.
 
+4. Select the website.
+ 
 5. Click the button **Remove Website**
 
 To stop all sites from sending you push messages, follow the above steps except, instead of selecting a specific site, click **Remove All Websites**. Websites will not be able to send you messages and will need to ask your permission to send them in the future.
