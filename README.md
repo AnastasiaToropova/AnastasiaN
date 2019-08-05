@@ -70,7 +70,6 @@ In both cases, push messages are encrypted per the [IETF spec](https://tools.iet
 3. Click the **Settings…** button next to *Notifications*.
 
 ![](http://lr.f.mf-image.ru/d/eyJ0IjoiMjAxOS0wNy0yOVQxNTo0OToyOC4wNzU1MTA3WiIsInRtIjoxNSwiYmQiOjEsImZkIjo1ODg3NDYzLCJyZiI6bnVsbCwic2wiOjAsImZuIjpudWxsLCJyIjoiaHR0cHM6Ly9teS1maWxlcy5ydS9mZ3JheTAiLCJsIjpudWxsfQ,,.DA2588ABFCD22F008DE25F51263E1109./5.png)
-
 4. Select the website.
  
 5. Click the button **Remove Website**
@@ -93,6 +92,6 @@ Click the **Settings…** button to the right of Notifications.
 
 ![](https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2018-04-09-09-06-49-fc7acb.png)
 
-4. Check the box for *Block new requests asking to allow notifications* and then click **Save Changes**.
+3. Check the box for *Block new requests asking to allow notifications* and then click **Save Changes**.
               
               
